@@ -32,6 +32,10 @@
 		2B6444D5234ED2A80010EDC7 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6444D4234ED2A80010EDC7 /* Group.swift */; };
 		2B6444D9234ED3F40010EDC7 /* FirstDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6444D8234ED3F40010EDC7 /* FirstDataSource.swift */; };
 		2B900EFE23504A82001AEE3C /* TodoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B900EFD23504A82001AEE3C /* TodoData.swift */; };
+		2B9944032356B9F900BC49D7 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9944022356B9F900BC49D7 /* CheckBox.swift */; };
+		2B9944052356BE7400BC49D7 /* TodayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9944042356BE7400BC49D7 /* TodayTableViewController.swift */; };
+		2B9944082356BEE700BC49D7 /* TodayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9944072356BEE700BC49D7 /* TodayTableViewCell.swift */; };
+		2B99440A2356E6C000BC49D7 /* TodayTodoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9944092356E6C000BC49D7 /* TodayTodoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +66,10 @@
 		2B6444D4234ED2A80010EDC7 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		2B6444D8234ED3F40010EDC7 /* FirstDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDataSource.swift; sourceTree = "<group>"; };
 		2B900EFD23504A82001AEE3C /* TodoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoData.swift; sourceTree = "<group>"; };
+		2B9944022356B9F900BC49D7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		2B9944042356BE7400BC49D7 /* TodayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTableViewController.swift; sourceTree = "<group>"; };
+		2B9944072356BEE700BC49D7 /* TodayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTableViewCell.swift; sourceTree = "<group>"; };
+		2B9944092356E6C000BC49D7 /* TodayTodoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTodoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,10 @@
 		2B09AAFE23501A74009283FC /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				2B9944062356BEC000BC49D7 /* Cell */,
 				2B09AB1D23501D23009283FC /* VC */,
+				2B9944022356B9F900BC49D7 /* CheckBox.swift */,
+				2B9944092356E6C000BC49D7 /* TodayTodoData.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				2B09AB0B23501B57009283FC /* TodayViewController.swift */,
+				2B9944042356BE7400BC49D7 /* TodayTableViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -372,6 +384,14 @@
 			path = DataSource;
 			sourceTree = "<group>";
 		};
+		2B9944062356BEC000BC49D7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2B9944072356BEE700BC49D7 /* TodayTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -451,17 +471,21 @@
 				2B09AB1823501C95009283FC /* Property3ViewController.swift in Sources */,
 				2B09AB1C23501CE3009283FC /* Property1ViewController.swift in Sources */,
 				2B09AAF9234F1C9B009283FC /* InboxViewController.swift in Sources */,
+				2B9944082356BEE700BC49D7 /* TodayTableViewCell.swift in Sources */,
+				2B99440A2356E6C000BC49D7 /* TodayTodoData.swift in Sources */,
 				2B09AB1A23501CAB009283FC /* Property2ViewController.swift in Sources */,
 				2B6444B7234DC8980010EDC7 /* FirstViewController.swift in Sources */,
 				2B6444D9234ED3F40010EDC7 /* FirstDataSource.swift in Sources */,
 				2B09AB0C23501B57009283FC /* TodayViewController.swift in Sources */,
 				2B09AB1623501C51009283FC /* FornowViewController.swift in Sources */,
+				2B9944052356BE7400BC49D7 /* TodayTableViewController.swift in Sources */,
 				2B09AB2C23504793009283FC /* TaskTableViewCell.swift in Sources */,
 				2B6444CE234EC3860010EDC7 /* UserContainerViewController.swift in Sources */,
 				2B900EFE23504A82001AEE3C /* TodoData.swift in Sources */,
 				2B6444B5234DC8980010EDC7 /* AppDelegate.swift in Sources */,
 				2B09AB2723502C4B009283FC /* TaskContainerViewController.swift in Sources */,
 				2B09AB1423501C36009283FC /* MailViewController.swift in Sources */,
+				2B9944032356B9F900BC49D7 /* CheckBox.swift in Sources */,
 				2B09AB1223501C11009283FC /* WorkViewController.swift in Sources */,
 				2B6444D5234ED2A80010EDC7 /* Group.swift in Sources */,
 				2B6444D1234ECF740010EDC7 /* GroupTableViewCell.swift in Sources */,
