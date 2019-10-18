@@ -12,7 +12,7 @@ public func View(_ array: [[String]]) -> [[String]]{
 
 var ary = array
     
-ary.append(["showInbox", "showToday", "showWeek"])
+ary.append(["showInbox", "showToday", "showTab"])
 ary.append(["showWork", "showStudy"])
 ary.append(["showFornow", "showMail"])
 ary.append(["showProperty1", "showProperty2", "showProperty3"])

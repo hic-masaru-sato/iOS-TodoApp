@@ -59,7 +59,6 @@
                         <outlet property="tableView" destination="bsU-Wu-vk9" id="eD8-nM-VKG"/>
                         <segue destination="YQQ-Ki-3Dx" kind="show" identifier="showInbox" id="zmR-7v-V7R"/>
                         <segue destination="EZo-d7-W8I" kind="show" identifier="showToday" id="fGK-Ny-C8k"/>
-                        <segue destination="zgR-0X-zUB" kind="show" identifier="showWeek" id="Q0s-pG-9Tb"/>
                         <segue destination="mxd-A2-RVA" kind="show" identifier="showWork" id="roR-uE-C6K"/>
                         <segue destination="m3m-9v-DUQ" kind="show" identifier="showStudy" id="BuB-eb-Rhp"/>
                         <segue destination="CTv-u7-Wop" kind="show" identifier="showFornow" id="Ish-EZ-JuH"/>
@@ -67,6 +66,7 @@
                         <segue destination="x9d-pr-Ex0" kind="show" identifier="showProperty1" id="8Jf-Xk-G7U"/>
                         <segue destination="IFm-lT-i6X" kind="show" identifier="showProperty2" id="TqP-j6-t3r"/>
                         <segue destination="H5r-8I-5CX" kind="show" identifier="showProperty3" id="vHL-Fk-xeo"/>
+                        <segue destination="svy-1m-EB9" kind="show" identifier="showTab" id="aoM-m1-zei"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -238,20 +238,13 @@
             </objects>
             <point key="canvasLocation" x="-607.24637681159425" y="902.67857142857133"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="SEP-xv-ymg">
+        <!--Tab-->
+        <scene sceneID="9Tf-Yc-49m">
             <objects>
-                <viewController id="zgR-0X-zUB" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mwH-62-CiT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="B3J-aP-tq9"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zah-vB-X8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tab" id="svy-1m-EB9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hc7-8e-AZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-155" y="903"/>
+            <point key="canvasLocation" x="1783" y="-26"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gUw-d6-bt8">
